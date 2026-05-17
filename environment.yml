@@ -1,0 +1,13 @@
+name: customer-churn-prediction
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - tensorflow==2.16.1
+      - numpy>=1.23.5,<2.0
+      - pandas>=2.0,<3.0
+      - scikit-learn==1.8.0
+      - streamlit>=1.36,<2.0
+      - h5py>=3.10,<4.0
